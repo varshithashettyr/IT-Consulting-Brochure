@@ -277,24 +277,28 @@ export const serviceCategories: ServiceCategory[] = [
 /** Hero infinity nodes — four pillars. */
 export const heroServiceNodes = [
   {
-    label: "Lead Generation",
-    href: "https://www.brickworkindia.com/sales-and-digital-marketing/lead-and-demand-generation",
-    accent: "red" as const,
+    label: "IT Strategy & Transformation",
+    href: "https://www.brickworkindia.com/it-consulting/it-strategy-and-digital-transformation",
+    accent: "blue" as const,
+    className: "top-6 left-8 text-left",
   },
-    {
-    label: "Sales Collateral",
-    href: "https://www.brickworkindia.com/sales-and-digital-marketing/sales-collateral-design",
+  {
+    label: "Cybersecurity & Risk",
+    href: "https://www.brickworkindia.com/it-consulting/cybersecurity-and-risk-consulting",
+    accent: "pink" as const,
+    className: "top-6 right-8 text-right",
+  },
+  {
+    label: "Technology Advisory",
+    href: "https://www.brickworkindia.com/it-consulting/technology-advisory-and-solution-design",
     accent: "orange" as const,
+    className: "bottom-6 left-6 text-left",
   },
   {
-    label: "Digital Presence",
-    href: "https://www.brickworkindia.com/sales-and-digital-marketing/digital-presence-management",
-    accent: "yellow" as const,
-  },
-  {
-    label: "Customer Engagement",
-    href: "https://www.brickworkindia.com/executive-admin/executive-presentationshttps://www.brickworkindia.com/sales-and-digital-marketing/customer-engagement-and-account-support",
+    label: "Process & Automation",
+    href: "https://www.brickworkindia.com/it-consulting/business-process-and-automation-consulting",
     accent: "green" as const,
+    className: "bottom-6 right-6 text-right",
   },
 ] as const;
 

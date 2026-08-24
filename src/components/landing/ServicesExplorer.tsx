@@ -192,7 +192,7 @@ export function ServicesExplorer() {
   const baseKeyServices: KeyService[] = [
   {
     name: "IT Strategy & Digital Transformation",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/it-strategy-and-digital-transformation",
     color: LOGO_COLORS.green,
     icon: Target,
     subServices: [
@@ -204,14 +204,14 @@ export function ServicesExplorer() {
       ["Performance Measurement and Continuous Optimization", TrendingUp],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/it-strategy-and-digital-transformation",
       icon: icon as ElementType,
     })),
   },
 
   {
     name: "Technology Advisory & Solution Design",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/technology-advisory-and-solution-design",
     color: LOGO_COLORS.green,
     icon: Lightbulb,
     subServices: [
@@ -223,14 +223,14 @@ export function ServicesExplorer() {
       ["System Integration Planning", GitMerge],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/technology-advisory-and-solution-design",
       icon: icon as ElementType,
     })),
   },
 
   {
     name: "Technology & Application Consulting",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/technology-and-application-consulting",
     color: LOGO_COLORS.green,
     icon: MonitorCog,
     subServices: [
@@ -240,14 +240,14 @@ export function ServicesExplorer() {
       ["Technology Best Practice Advisory", Award],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/technology-and-application-consulting",
       icon: icon as ElementType,
     })),
   },
 
   {
     name: "Cybersecurity & Risk Consulting",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/cybersecurity-and-risk-consulting",
     color: LOGO_COLORS.green,
     icon: ShieldCheck,
     subServices: [
@@ -258,14 +258,14 @@ export function ServicesExplorer() {
       ["Incident Response and Recovery Planning", Activity],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/cybersecurity-and-risk-consulting",
       icon: icon as ElementType,
     })),
   },
 
   {
     name: "Business Process & Automation Consulting",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/business-process-and-automation-consulting",
     color: LOGO_COLORS.green,
     icon: Workflow,
     subServices: [
@@ -276,14 +276,14 @@ export function ServicesExplorer() {
       ["Automation Feasibility Analysis", Gauge],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/business-process-and-automation-consulting",
       icon: icon as ElementType,
     })),
   },
 
   {
     name: "Change Management & IT Governance",
-    href: "https://www.brickworkindia.com/services/it-consulting",
+    href: "https://www.brickworkindia.com/it-consulting/change-management-and-it-governance",
     color: LOGO_COLORS.green,
     icon: UsersRound,
     subServices: [
@@ -295,7 +295,7 @@ export function ServicesExplorer() {
       ["IT Governance Framework Setup", ShieldCheck],
     ].map(([name, icon]) => ({
       name: name as string,
-      href: "https://www.brickworkindia.com/services/it-consulting",
+      href: "https://www.brickworkindia.com/it-consulting/change-management-and-it-governance",
       icon: icon as ElementType,
     })),
   },
@@ -1045,9 +1045,9 @@ const keyServices: KeyService[] = baseKeyServices.map(
                               >
                                 <span
                                   className="
-                                    text-base
-                                    font-black
-                                    leading-snug
+                                    text-sm
+                                    font-bold
+                                    leading-tight
                                     text-slate-100
                                     transition-colors
                                     duration-200
@@ -1158,7 +1158,7 @@ const keyServices: KeyService[] = baseKeyServices.map(
                     {/* CENTER ITSELF DOES NOT ROTATE */}
 
                     <a
-                      href="https://www.brickworkindia.com/services/sales-and-digital-marketing"
+                      href="https://www.brickworkindia.com/services/it-consulting"
                       target="_blank"
                       rel="noreferrer"
                       title="Global Business Support Services & Business Process Outsourcing | Brickwork"
