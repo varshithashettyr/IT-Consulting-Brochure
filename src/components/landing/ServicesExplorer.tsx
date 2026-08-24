@@ -184,10 +184,10 @@ function ITNetworkBackground() {
 }
 
 export function ServicesExplorer() {
-  const executiveAdmin = serviceCategories.find(
-    (service) =>
-      service.title.trim().toLowerCase() === "executive admin services"
-  );
+  // const executiveAdmin = serviceCategories.find(
+  //   (service) =>
+  //     service.title.trim().toLowerCase() === "executive admin services"
+  // );
 
   const baseKeyServices: KeyService[] = [
   {
@@ -426,9 +426,9 @@ const keyServices: KeyService[] = baseKeyServices.map(
     return () => observer.disconnect();
   }, []);
 
-  if (!executiveAdmin) {
-    return null;
-  }
+  // if (!executiveAdmin) {
+  //   return null;
+  // }
 
   /*
    * =========================================================
@@ -2124,11 +2124,10 @@ const keyServices: KeyService[] = baseKeyServices.map(
                           text-white
                         "
                       >
-                        Executive
+                        IT
                         <br />
-                        Admin
-                        <br />
-                        Services
+                        Consulting
+                      
                       </span>
 
                     </div>

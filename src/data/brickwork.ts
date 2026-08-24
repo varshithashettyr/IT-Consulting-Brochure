@@ -45,7 +45,7 @@ export const industries = [
 export const serviceCategories: ServiceCategory[] = [
   {
     slug: "executive-support",
-    title: "Executive Admin Services",
+    title: "IT Consulting",
     tagline: 
   "Executive Admin Services — one delivery model, with the key capabilities you need.",
     accent: "brand",
@@ -56,7 +56,7 @@ export const serviceCategories: ServiceCategory[] = [
      */
     subServices: [
       {
-        name: "Executive Admin Services1",
+        name: "IT Consulting",
         href: "https://www.brickworkindia.com/services/executive-admin-services",
 
         subServices: [
