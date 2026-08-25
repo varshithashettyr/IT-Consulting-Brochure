@@ -1545,19 +1545,26 @@ const keyServices: KeyService[] = baseKeyServices.map(
                                     items-center
                                     justify-center
                                     rounded-xl
-                                    bg-slate-700/70
-                                    text-slate-200
-                                    transition-colors
+                                    transition-all
                                     duration-300
-                                    group-hover:text-white
+                                    group-hover:scale-110
                                   "
+                                  style={{
+                                    backgroundColor: `${selectedService.color}22`,
+                                    color: selectedService.color,
+                                    border: `1px solid ${selectedService.color}55`,
+                                    boxShadow: `0 0 16px ${selectedService.color}22`,
+                                  }}
                                 >
-                                  <SubIcon className="size-5" />
+                                  <SubIcon
+                                    className="size-5"
+                                    strokeWidth={2.2}
+                                  />
                                 </span>
 
                                 <span
                                   className="
-                                    text-[10px]
+                                    text-[12px]
                                     font-bold
                                     leading-snug
                                     text-white
@@ -2354,19 +2361,26 @@ const keyServices: KeyService[] = baseKeyServices.map(
                                       items-center
                                       justify-center
                                       rounded-lg
-                                      bg-slate-800
-                                      text-slate-200
+                                      transition-all
+                                      duration-300
                                     "
+                                    style={{
+                                      backgroundColor: `${selectedService.color}22`,
+                                      color: selectedService.color,
+                                      border: `1px solid ${selectedService.color}55`,
+                                      boxShadow: `0 0 12px ${selectedService.color}18`,
+                                    }}
                                   >
                                     <SubIcon
                                       className="size-4"
+                                      strokeWidth={2.2}
                                     />
                                   </span>
 
                                   <span
                                     className="
                                       min-w-0
-                                      text-[12px]
+                                      text-[14px]
                                       font-bold
                                       leading-snug
                                       text-white
